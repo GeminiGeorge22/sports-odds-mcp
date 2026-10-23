@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.GeminiGeorge22/sports-odds-api",
+  "title": "Sports Odds API (Kambi sportsbooks)",
+  "description": "Live odds from 24 Kambi-powered sportsbooks in one call, with the best price per outcome.",
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/publicrecords/sports-odds-api",
+  "repository": {
+    "url": "https://github.com/GeminiGeorge22/sports-odds-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=publicrecords/sports-odds-api",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional if you use Apify OAuth. Otherwise: Bearer <APIFY_TOKEN> (your own Apify API token).",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
