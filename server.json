@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.GeminiGeorge22/sports-odds-api",
-  "title": "Sports Odds API (Kambi sportsbooks)",
+  "title": "Sports Odds API (BetRivers, Unibet & 22 more books)",
   "description": "Live odds from 24 Kambi-powered sportsbooks in one call, with the best price per outcome.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://apify.com/publicrecords/sports-odds-api",
   "repository": {
     "url": "https://github.com/GeminiGeorge22/sports-odds-mcp",

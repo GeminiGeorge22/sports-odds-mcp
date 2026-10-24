@@ -1,4 +1,4 @@
-# Sports Odds API (Kambi sportsbooks)
+# Sports Odds API (BetRivers, Unibet & 22 more books)
 
 Live odds from 24 Kambi-powered sportsbooks in one call — BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel, ATG. One row per game with every book's price and the best price per outcome. Pay per call, no subscription.
 
