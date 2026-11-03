@@ -67,3 +67,31 @@ To use a token instead of OAuth, add `"headers": { "Authorization": "Bearer <API
 ---
 
 Disclosure: I maintain this Actor.
+
+## Local stdio server (open source)
+
+This repo also ships a small MCP server in [`src/`](src/) for clients that only run local stdio servers. It starts over stdio, connects to the hosted Apify MCP endpoint above with **your own** `APIFY_TOKEN`, and forwards `tools/list` and `tools/call` unchanged. The token is only sent in the `Authorization` header and is never logged.
+
+```json
+{
+  "mcpServers": {
+    "sports-odds": {
+      "command": "npx",
+      "args": ["-y", "github:GeminiGeorge22/sports-odds-mcp"],
+      "env": { "APIFY_TOKEN": "YOUR_APIFY_TOKEN" }
+    }
+  }
+}
+```
+
+Or from a clone:
+
+```bash
+git clone https://github.com/GeminiGeorge22/sports-odds-mcp.git
+cd sports-odds-mcp && npm install
+APIFY_TOKEN=YOUR_APIFY_TOKEN node src/server.js
+```
+
+Optional env: `APIFY_ACTORS` (comma-separated subset of the Actors above) and `APIFY_MCP_URL` (full endpoint override).
+
+Tests run against an in-memory mock server, with no network and no token: `npm test`. Requires Node.js 18+.
