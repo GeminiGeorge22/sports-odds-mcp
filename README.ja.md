@@ -64,6 +64,7 @@ OAuth の代わりにトークンを使う場合は、`"url"` の横に `"header
 
 - Apify Store ページ: https://apify.com/publicrecords/sports-odds-api
 - 英語版の詳しい説明: [README.md](README.md)
+- 関連: [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) (厳選リスト)
 
 > 提供するのはオッズデータのみで、賭けのサービスは提供しません。お住まいの地域の法令に従ってご利用ください。
 

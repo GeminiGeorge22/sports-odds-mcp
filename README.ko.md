@@ -64,6 +64,7 @@ OAuth 대신 토큰을 쓰려면 `"url"` 옆에 `"headers": { "Authorization": "
 
 - Apify Store 페이지: https://apify.com/publicrecords/sports-odds-api
 - 영어 전체 설명: [README.md](README.md)
+- 함께 보기: [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) (엄선 목록)
 
 > 배당 데이터만 제공하며 베팅 서비스는 제공하지 않습니다. 거주 지역의 법령을 지켜 주세요.
 

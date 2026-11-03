@@ -64,6 +64,7 @@ Para usar un token en lugar de OAuth, añade `"headers": { "Authorization": "Bea
 
 - Página en Apify Store: https://apify.com/publicrecords/sports-odds-api
 - Documentación completa en inglés: [README.md](README.md)
+- Ver también: [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) (lista seleccionada)
 
 > Solo datos de cuotas; no ofrece servicios de apuestas. Respeta la normativa de tu país.
 

@@ -84,6 +84,7 @@ Claude Desktop / claude.ai：设置 → Connectors → 添加自定义连接器�
 
 - Apify Store 页面: https://apify.com/publicrecords/sports-odds-api
 - 英文完整说明: [README.md](README.md)
+- 另见: [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) (精选列表)
 
 > 仅提供赔率数据，不提供任何投注服务。请遵守你所在地区的法律法规。
 

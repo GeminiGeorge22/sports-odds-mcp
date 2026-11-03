@@ -64,6 +64,7 @@ Pour utiliser un jeton plutôt qu'OAuth, ajoutez `"headers": { "Authorization": 
 
 - Page sur l'Apify Store: https://apify.com/publicrecords/sports-odds-api
 - Documentation complète en anglais: [README.md](README.md)
+- Voir aussi: [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) (liste sélectionnée)
 
 > Données de cotes uniquement ; aucun service de pari. Respectez la réglementation de votre pays.
 

@@ -95,3 +95,7 @@ APIFY_TOKEN=YOUR_APIFY_TOKEN node src/server.js
 Optional env: `APIFY_ACTORS` (comma-separated subset of the Actors above) and `APIFY_MCP_URL` (full endpoint override).
 
 Tests run against an in-memory mock server, with no network and no token: `npm test`. Requires Node.js 18+.
+
+## See also
+
+- [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp): a curated list of sports odds MCP servers, one provider per sportsbook.

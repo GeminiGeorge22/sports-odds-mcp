@@ -64,6 +64,7 @@ OAuth yerine anahtar kullanmak için `"url"` yanına `"headers": { "Authorizatio
 
 - Apify Store sayfası: https://apify.com/publicrecords/sports-odds-api
 - İngilizce tam belge: [README.md](README.md)
+- Ayrıca bakın: [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) (seçkin liste)
 
 > Yalnızca oran verisi sunar; bahis hizmeti sunmaz. Lütfen ülkenizin yasalarına uyun.
 

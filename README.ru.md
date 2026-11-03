@@ -64,6 +64,7 @@ Claude Desktop / claude.ai: Настройки → Connectors → Добавит
 
 - Страница в Apify Store: https://apify.com/publicrecords/sports-odds-api
 - Полная документация на английском: [README.md](README.md)
+- См. также: [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp) (подборка)
 
 > Только данные о коэффициентах; услуги приёма ставок не предоставляются. Соблюдайте законы своей страны.
 
