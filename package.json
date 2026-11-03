@@ -1,0 +1,41 @@
+{
+  "name": "sports-odds-mcp",
+  "version": "0.1.0",
+  "description": "Stdio MCP server for live sportsbook odds (Kambi books) via Apify's hosted MCP gateway",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "sports-odds-mcp": "src/server.js"
+  },
+  "main": "src/proxy.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/proxy.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeminiGeorge22/sports-odds-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "apify"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  },
+  "mcpProxy": {
+    "actors": [
+      "publicrecords/sports-odds-api"
+    ]
+  }
+}
