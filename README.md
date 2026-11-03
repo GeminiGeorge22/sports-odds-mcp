@@ -96,6 +96,24 @@ Optional env: `APIFY_ACTORS` (comma-separated subset of the Actors above) and `A
 
 Tests run against an in-memory mock server, with no network and no token: `npm test`. Requires Node.js 18+.
 
+### Python (uvx/pip)
+
+A matching Python version of this server lives in [`python/`](python/), built on the official `mcp` Python SDK: same tools, same `APIFY_TOKEN`, same hosted endpoint. Requires Python 3.10+.
+
+```json
+{
+  "mcpServers": {
+    "sports-odds": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/GeminiGeorge22/sports-odds-mcp#subdirectory=python", "sports-odds-mcp"],
+      "env": { "APIFY_TOKEN": "YOUR_APIFY_TOKEN" }
+    }
+  }
+}
+```
+
+Or with pip: `pip install "git+https://github.com/GeminiGeorge22/sports-odds-mcp#subdirectory=python"`, then run `sports-odds-mcp`. Python tests: `cd python && pip install -e ".[test]" && env -u APIFY_TOKEN python -m pytest`.
+
 ## See also
 
 - [Awesome Sports Odds MCP](https://github.com/GeminiGeorge22/awesome-sports-odds-mcp): a curated list of sports odds MCP servers, one provider per sportsbook.
