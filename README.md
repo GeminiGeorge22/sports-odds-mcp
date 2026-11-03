@@ -105,14 +105,14 @@ A matching Python version of this server lives in [`python/`](python/), built on
   "mcpServers": {
     "sports-odds": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/GeminiGeorge22/sports-odds-mcp#subdirectory=python", "sports-odds-mcp"],
+      "args": ["sports-odds-mcp"],
       "env": { "APIFY_TOKEN": "YOUR_APIFY_TOKEN" }
     }
   }
 }
 ```
 
-Or with pip: `pip install "git+https://github.com/GeminiGeorge22/sports-odds-mcp#subdirectory=python"`, then run `sports-odds-mcp`. Python tests: `cd python && pip install -e ".[test]" && env -u APIFY_TOKEN python -m pytest`.
+Or with pip: `pip install sports-odds-mcp`, then run `sports-odds-mcp`. Python tests: `cd python && pip install -e ".[test]" && env -u APIFY_TOKEN python -m pytest`.
 
 ## See also
 

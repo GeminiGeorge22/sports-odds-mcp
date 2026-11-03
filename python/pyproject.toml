@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sports-odds-mcp"
-version = "0.2.0"
+version = "0.2.1"
 description = "Stdio MCP server for live sportsbook odds (Kambi books) via Apify's hosted MCP gateway"
 readme = "README.md"
 license = "MIT"

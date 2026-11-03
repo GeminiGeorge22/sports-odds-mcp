@@ -1,5 +1,7 @@
 # sports-odds-mcp (Python)
 
+<!-- mcp-name: io.github.GeminiGeorge22/sports-odds-api -->
+
 Python version of the [sports-odds-mcp](https://github.com/GeminiGeorge22/sports-odds-mcp) stdio MCP server, built on the official [`mcp`](https://pypi.org/project/mcp/) Python SDK. Same tools, same `APIFY_TOKEN` env var, same hosted endpoint as the Node.js server.
 
 Stdio MCP server for live sportsbook odds (Kambi books) via Apify's hosted MCP gateway
@@ -11,15 +13,17 @@ It answers `initialize` and `tools/list` locally from the bundled `tools.json` (
 Requires Python 3.10+. With [uv](https://docs.astral.sh/uv/):
 
 ```bash
-uvx --from "git+https://github.com/GeminiGeorge22/sports-odds-mcp#subdirectory=python" sports-odds-mcp
+uvx sports-odds-mcp
 ```
 
 With pip:
 
 ```bash
-pip install "git+https://github.com/GeminiGeorge22/sports-odds-mcp#subdirectory=python"
+pip install sports-odds-mcp
 sports-odds-mcp
 ```
+
+To run the latest unreleased code from GitHub instead of the PyPI release: `uvx --from "git+https://github.com/GeminiGeorge22/sports-odds-mcp#subdirectory=python" sports-odds-mcp`.
 
 MCP client config:
 
@@ -28,7 +32,7 @@ MCP client config:
   "mcpServers": {
     "sports-odds": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/GeminiGeorge22/sports-odds-mcp#subdirectory=python", "sports-odds-mcp"],
+      "args": ["sports-odds-mcp"],
       "env": { "APIFY_TOKEN": "YOUR_APIFY_TOKEN" }
     }
   }
