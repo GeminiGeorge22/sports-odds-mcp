@@ -3,12 +3,32 @@
   "name": "io.github.GeminiGeorge22/sports-odds-api",
   "title": "Sports Odds API (BetRivers, Unibet & 22 more books)",
   "description": "Live odds from 24 Kambi-powered sportsbooks in one call, with the best price per outcome.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://apify.com/publicrecords/sports-odds-api",
   "repository": {
     "url": "https://github.com/GeminiGeorge22/sports-odds-mcp",
     "source": "github"
   },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "sports-odds-mcp",
+      "version": "0.2.1",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "APIFY_TOKEN",
+          "description": "Your own Apify API token. Needed for tools/call; tools/list works without it.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
