@@ -1,0 +1,9 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "GeminiGeorge22"
+  ],
+  "name": "Sports Odds API (BetRivers, Unibet & 22 more books)",
+  "description": "Live odds from 24 Kambi-powered sportsbooks in one call, with the best price per outcome. Hosted remote MCP on Apify's gateway, plus an open-source Node.js stdio proxy in this repo.",
+  "category": "Sports"
+}
