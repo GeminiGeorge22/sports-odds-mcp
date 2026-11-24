@@ -1,6 +1,7 @@
 # Sports Odds API (BetRivers, Unibet & 22 more books)
 
 [![GeminiGeorge22/sports-odds-mcp MCP server](https://glama.ai/mcp/servers/GeminiGeorge22/sports-odds-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeminiGeorge22/sports-odds-mcp)
+[![io.github.GeminiGeorge22/sports-odds-api MCP connector](https://glama.ai/mcp/connectors/io.github.GeminiGeorge22/sports-odds-api/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.GeminiGeorge22/sports-odds-api)
 
 **Languages:** English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Русский](README.ru.md) · [Türkçe](README.tr.md)
 
