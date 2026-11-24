@@ -1,5 +1,7 @@
 # Sports Odds API (BetRivers, Unibet & 22 more books)
 
+[![GeminiGeorge22/sports-odds-mcp MCP server](https://glama.ai/mcp/servers/GeminiGeorge22/sports-odds-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GeminiGeorge22/sports-odds-mcp)
+
 **Languages:** English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Русский](README.ru.md) · [Türkçe](README.tr.md)
 
 Live odds from 24 Kambi-powered sportsbooks in one call — BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel, ATG. One row per game with every book's price and the best price per outcome. Pay per call, no subscription.
