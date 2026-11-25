@@ -6,8 +6,8 @@
   "tools": [
     {
       "name": "publicrecords--sports-odds-api",
-      "title": "Sports Odds API: BetRivers, Unibet, Paf, Svenska Spel, ATG",
-      "description": "Sports Odds API: BetRivers, Unibet, Paf, Svenska Spel, ATG. Live odds from 24 Kambi-powered sportsbooks in one call: BetRivers (12 US states + Ontario), Unibet (7 countries), Paf, Svenska Spel and ATG. One row per game with every book's price and the best price per outcome.\n\nWhen to use: Use when you need current pre-match or live prices for a game or league from Kambi-powered books (BetRivers, Unibet, Paf, Svenska Spel, ATG) and want to compare books or find the best price per outcome. Not for DraftKings/FanDuel or historical odds.\n\nReturns: the run's dataset rows as structured JSON (one row per result), plus the run and dataset IDs for paging the full dataset.\n\nBehavior: starts one run of the Apify Actor \"publicrecords/sports-odds-api\" through Apify's hosted MCP gateway (mcp.apify.com) with your own APIFY_TOKEN; the run uses your Apify account. Read-only: it only reads public web data and changes nothing on the source site. Docs: https://apify.com/publicrecords/sports-odds-api",
+      "title": "Sports Betting Odds API: BetRivers, Unibet, Paf, Svenska Spel",
+      "description": "Sports Betting Odds API: BetRivers, Unibet, Paf, Svenska Spel. Sports betting odds API: live and pre-game odds from BetRivers (12 US states + Ontario), Unibet (7 countries), Paf, Svenska Spel and ATG in one call. One row per game with every book's price and the best price per outcome. No API key.\n\nWhen to use: Use when you need current pre-match or live prices for a game or league from Kambi-powered books (BetRivers, Unibet, Paf, Svenska Spel, ATG) and want to compare books or find the best price per outcome. Not for DraftKings/FanDuel or historical odds.\n\nReturns: the run's dataset rows as structured JSON (one row per result), plus the run and dataset IDs for paging the full dataset.\n\nBehavior: starts one run of the Apify Actor \"publicrecords/sports-odds-api\" through Apify's hosted MCP gateway (mcp.apify.com) with your own APIFY_TOKEN; the run uses your Apify account. Read-only: it only reads public web data and changes nothing on the source site. Docs: https://apify.com/publicrecords/sports-odds-api",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -120,7 +120,7 @@
         }
       },
       "annotations": {
-        "title": "Sports Odds API: BetRivers, Unibet, Paf, Svenska Spel, ATG",
+        "title": "Sports Betting Odds API: BetRivers, Unibet, Paf, Svenska Spel",
         "readOnlyHint": true,
         "destructiveHint": false,
         "idempotentHint": false,
